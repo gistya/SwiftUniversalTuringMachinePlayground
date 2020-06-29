@@ -1,4 +1,4 @@
-# SwiftTuringMachinePlayground
+# Swift Universal Turing Machine Playground
 A Swift playground containing code for translating Turing a standard description string or Turing machine number into an actual working Turing machine.
 
 In other words this is code for a Universal Turing Machine.
