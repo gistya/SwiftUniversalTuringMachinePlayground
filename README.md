@@ -48,8 +48,10 @@ prints(base7)
 Prints:
 `20221420062002242000620002211420000620000224206`
 
-To copy such a result out of the playground:
+To copy such a result out of the playground on iPad Playgrounds app:
 
 ```
+import UIKit
+
 UIPasteboard.general.string = base7
 ```
