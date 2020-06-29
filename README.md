@@ -1,6 +1,8 @@
 # SwiftTuringMachinePlayground
 A Swift playground containing code for translating Turing a standard description string or Turing machine number into an actual working Turing machine.
 
+In other words this is code for a Universal Turing Machine.
+
 This is based on the paper, ["ON COMPUTABLE NUMBERS, WITH AN APPLICATION TO THE ENTSCHEIDUNGSPROBLEM," by Alan Turing, May 28, 1936](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf) (click link for PDF).
 
 Specifically I used his concept of a "standard description" exactly as Turing originally devised on pp. 240-241, including a faithful handling of the example he gave on p. 241 (see below Usage).
