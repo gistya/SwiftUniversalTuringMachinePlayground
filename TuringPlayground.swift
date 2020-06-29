@@ -1,5 +1,6 @@
-/// Turing machine playground (c) 2020 Jonathan Gilbert
+/// Universal Turing machine playground (c) 2020 Jonathan Gilbert
 /// Version 0.1
+/// Created entirely on iPad.
 ///
 /// Scroll to the bottom for usage.
 ///
@@ -25,6 +26,7 @@
  */
 
 import Foundation
+import UIKit
 
 enum SDErr: Error {
     case orphanA
@@ -250,6 +252,12 @@ do {
     // Print the result.
     print(result)
     print("Result length: \(result.count)")
+    UIPasteboard.general.string = result
 } catch {
     print(error)
 }
+
+// Fun with numbers: convert Turing machine number to base 7 string 
+let base7 = "31332531173113353111731113322531111731111335317".mNumToBase7()
+print(base7)
+UIPasteboard.general.string = base7 
